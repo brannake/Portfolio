@@ -9,9 +9,9 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.85;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,19 +19,25 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("img_parallax.jpg");
+  background-image: url("https://static.pexels.com/photos/7764/pexels-photo.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("img_parallax2.jpg");
+  background-image: url("https://github.com/brannake/burger3a/blob/master/app/public/images/benefits-of-running-running-on-emotions.jpg?raw=true");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("img_parallax3.jpg");
+  background-image: url("http://shogunfusion.com/templates/31205/images/slide-5.jpg");
   min-height: 400px;
 }
+
+.bgimg-4 {
+  background-image: url("https://www.ritani.com/wp-content/uploads/2015/04/San_Diego_Reflecting_Pond_Wikimedia.jpg?40fdb1");
+  min-height: 400px;
+}
+
 
 .caption {
   position: absolute;
@@ -47,7 +53,8 @@ body, html {
   color: #fff;
   padding: 18px;
   font-size: 25px;
-  letter-spacing: 10px;
+  opacity: .9;
+  border-radius: 20px;
 }
 
 h3 {
@@ -59,7 +66,7 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
 }
@@ -69,7 +76,7 @@ h3 {
 
 <div class="bgimg-1">
   <div class="caption">
-    <span class="border">SCROLL DOWN</span>
+    <span class="border">IntroSpectiv</span>
   </div>
 </div>
 
@@ -102,7 +109,7 @@ h3 {
   </div>
 </div>
 
-<div class="bgimg-1">
+<div class="bgimg-4">
   <div class="caption">
     <span class="border">COOL!</span>
   </div>
