@@ -10,6 +10,11 @@ body, html {
   color: #777;
 }
 
+p {
+  text-align: center;
+  font-style: italic;
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   opacity: 0.85;
@@ -49,6 +54,16 @@ body, html {
   color: #000;
 }
 
+.spacer {
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+.spacer-container {
+  position: relative;
+}
+
 a.border {
   background-color: #fff;
   color: #111;
@@ -72,6 +87,8 @@ h3 {
 #introspectiv {
   font-family:'Amatic SC', cursive;
   font-size: 50px;
+  position: relative;
+  left: 2.3%
 }
 
 #burger3 {
@@ -101,9 +118,9 @@ h3 {
   </div>
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+<div class="spacer" style="color: #777;background-color:white;">
   <h3 style="text-align:center;">My Portfolio</h3>
-    <p>Scroll down to see the rest of my projects.</p>
+    <p>"Things won are done, joy's soul lies in the doing"</p>
 </div>
 
 <div class="bgimg-2">
@@ -114,9 +131,8 @@ h3 {
 </div>
 
 
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p></p>
+<div class="spacer-container">
+  <div class="spacer" style="color:#ddd;background-color:#282E34;">
   </div>
 </div>
 
@@ -126,8 +142,8 @@ h3 {
   </div>
 </div>
 
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+<div class="spacer-container">
+  <div class="spacer" style="color:#ddd;background-color:#282E34;">
     <p>Feel free to contact me via:
     </p>
   </div>
