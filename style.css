@@ -43,7 +43,7 @@ p {
 .caption {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 40%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -84,7 +84,6 @@ a.border {
   opacity: .9;
   border-radius: 20px;
   display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
