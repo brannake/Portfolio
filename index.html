@@ -1,112 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bangers|Press+Start+2P" rel="stylesheet">  </head>
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bangers|Press+Start+2P" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script
+  		src="https://code.jquery.com/jquery-3.2.1.min.js"
+  		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  		crossorigin="anonymous">
+  	</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  	<script src="logic.js"></script>
+  </head>
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-}
-
-p {
-  text-align: center;
-  font-style: italic;
-}
-
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-  position: relative;
-  opacity: 0.85;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bgimg-1 {
-  background-image: url("https://static.pexels.com/photos/7764/pexels-photo.jpg");
-  min-height: 100%;
-}
-
-.bgimg-2 {
-  background-image: url("https://github.com/brannake/burger3a/blob/master/app/public/images/benefits-of-running-running-on-emotions.jpg?raw=true");
-  min-height: 400px;
-}
-
-.bgimg-3 {
-  background-image: url("http://shogunfusion.com/templates/31205/images/slide-5.jpg");
-  min-height: 400px;
-}
-
-.bgimg-4 {
-  background-image: url("https://www.ritani.com/wp-content/uploads/2015/04/San_Diego_Reflecting_Pond_Wikimedia.jpg?40fdb1");
-  min-height: 400px;
-}
-
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.spacer {
-  text-align:center;
-  padding:50px 80px;
-  text-align: justify;
-}
-
-.spacer-container {
-  position: relative;
-}
-
-a.border {
-  background-color: #fff;
-  color: #111;
-  padding: 18px;
-  font-size: 25px;
-  opacity: .9;
-  border-radius: 20px;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
-
-#introspectiv {
-  font-family:'Amatic SC', cursive;
-  font-size: 50px;
-  position: relative;
-  left: 2.3%
-}
-
-#burger3 {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 30px;
-}
-
-#convoy {
-  font-family: 'Bangers', cursive;
-  font-size: 50px;
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-        background-attachment: scroll;
-    }
-}
 </style>
 </head>
 <body>
