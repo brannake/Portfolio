@@ -39,7 +39,6 @@ p {
   min-height: 400px;
 }
 
-
 .caption {
   position: absolute;
   left: 0;
@@ -62,7 +61,7 @@ p {
 a.border {
   background-color: #fff;
   color: #111;
-  padding: 15px;
+  padding: 0px 10px 0px 10px;
   font-size: 25px;
   opacity: .9;
   border-radius: 20px;
