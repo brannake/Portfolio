@@ -20,22 +20,22 @@ p {
 }
 
 .bgimg-1 {
-  background-image: url("images/introspectivMain.jpg");
+  background-image: url("assets/images/introspectivMain.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("images/burger3Main.jpg");
+  background-image: url("assets/images/burger3Main.jpg");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("images/convoyMain.jpg");
+  background-image: url("assets/images/convoyMain.jpg");
   min-height: 400px;
 }
 
 .bgimg-4 {
-  background-image: url("images/footerMain.jpg");
+  background-image: url("assets/images/footerMain.jpg");
   min-height: 400px;
 }
 
@@ -47,6 +47,23 @@ p {
   width: 100%;
   text-align: center;
   color: #000;
+}
+
+.border:hover {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }
 
 .spacer {
@@ -62,10 +79,15 @@ p {
 a.border {
   background-color: #fff;
   color: #111;
-  padding: 18px;
+  padding: 15px;
   font-size: 25px;
   opacity: .9;
   border-radius: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
 }
 
 a:link {
