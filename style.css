@@ -69,13 +69,14 @@ a.border {
   vertical-align: middle;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  border: 1px solid white;
+  border: 2px solid white;
+
 }
 
 a.border:hover, a.border:focus, a.border:active {
   background-color: #111;
   color: white;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 a:link {
