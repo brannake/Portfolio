@@ -63,7 +63,7 @@ a.border {
   color: black;
   padding: 15px;
   font-size: 25px;
-  opacity: .9;
+  opacity: .85;
   border-radius: 20px;
   box-shadow: 10px 10px 5px black;
   display: inline-block;
@@ -112,6 +112,16 @@ h3 {
 
 #line {
   visibility: hidden;
+}
+
+.overlay {
+  position: absolute;
+  color: white;
+  background: black;
+  opacity: .3;
+  height: 100%;
+  width: 100%;
+
 }
 
 /* Turn off parallax scrolling for tablets and phones */
